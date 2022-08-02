@@ -73,6 +73,7 @@ body{
     top: 0;
     opacity: 0;
     transition: 1s;
+    position: fixed;
 }
 
 .home-heading{
@@ -148,7 +149,7 @@ span{
 
 .project-content{
     position: relative;
-    padding: 40px;
+    padding: 30px;
     color: #fff;
     transition: .5s;
     opacity: 0;
@@ -215,34 +216,27 @@ span{
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
+    border: 2px solid crimson;
     /* padding: 3px 0 0; */
-    color: #fff;
+    color: crimson;
     /* border: none; */
     font-size: 16px;
     text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
     transition: .5s;
-    background: rgba(0,0,0,0.5); 
+    /* background: rgba(0,0,0,0.5);  */
     display: inline-block;
     margin-top: 1rem;
-    border-radius: 5rem;
+    /* border-radius: 5rem; */
     /* background: #000; */
     padding: .7rem;
 }
 
-.download-cv-btn i{
-    height: 2rem;
-    width: 2rem;
-    line-height: 2rem;
-    font-size: 16px;
-    text-align: center;
-    background: #fff;
-    color: rgba(0,0,0,0.5);
-    border-radius: 5rem;
-    margin-left: 1rem;
+.download-cv-btn:hover{
+    border: 2px solid white;
+    color: white;
 }
-
 /* skills */
 
 .skill-section{
