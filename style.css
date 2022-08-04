@@ -149,7 +149,7 @@ span{
 
 .project-content{
     position: relative;
-    padding: 30px;
+    padding: 15px;
     color: #fff;
     transition: .5s;
     opacity: 0;
@@ -159,14 +159,15 @@ span{
     font-size: 50px;
     text-transform: capitalize;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .project-info{
-    margin: 40px;
+    margin: 20px 30px;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+    font-weight: 100;
 }
 
 .project-btn-grp{
@@ -176,12 +177,18 @@ span{
 .project-btn{
     height: 40px;
     width: 200px;
-    text-transform: capitalize;
     font-size: 18px;
     border: none;
     background: #000;
     color: #fff;
+    text-transform: capitalize;
     cursor: pointer;
+}
+
+.project-btn a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
 }
 
 .project-card:hover .project-img{
